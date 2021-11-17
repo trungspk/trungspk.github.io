@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .logo {
+        width: 100%;
+        height: 20vw;
+        background-color: black;
+        text-align: center;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: chartreuse;
+        line-height: 20vw;
+        text-decoration: underline;
+        font-size: 7vw;
+    }
+    .nav-menu {
+        text-align: center;
+        background-color: #efefef;
+    }
+    .nav-menu a {
+        display: inline-block;
+        font-size: 2.5vw;
+        text-decoration: none;
+        padding: 2vw;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+    .nav-menu a:hover {
+        color: red;
+    }
+    .nav-menu a:nth-child(2) {
+        color: red;
+    }
+    .main-content {
+        background-color: #efefef;
+    }
+    .container, .title {
+        background: white;
+    }
+    .title {
+        padding: 2vh 0;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+    .title p{
+        font-size: 4vw;
+    }
+    .container {
+        text-align: justify;
+        word-wrap: break-word;
+        padding-bottom: 5vh;
+    }
+    .container-img{
+        width: 90%;
+        margin: 0 auto 2vh;
+    }
+    .container-text{
+        width: 88%;
+        height: auto;
+        margin: 0 auto 3vh;
+    }
+    .container-text i{
+        font-size: 4vw;
+    }
+    .container-img img{
+        width: 100%;
+    }
+    .container p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo {
+        width: 100%;
+        height: 20vw;
+        background-color: black;
+        text-align: center;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: chartreuse;
+        line-height: 20vw;
+        text-decoration: underline;
+        font-size: 7vw;
+    }
+    .nav-menu {
+        text-align: center;
+        background-color: #efefef;
+    }
+    .nav-menu a {
+        display: inline-block;
+        font-size: 2.5vw;
+        text-decoration: none;
+        padding: 2vw;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+    .nav-menu a:hover {
+        color: red;
+    }
+    .nav-menu a:nth-child(2) {
+        color: red;
+    }
+    .main-content{
+        background-color: #efefef;
+    }
+    .title, .container{
+        background-color: white;
+    }
+    .title{
+        text-align: center;
+        padding: 2vh 0;
+        font-family: 'Lobster', cursive;
+    }
+    .title p{
+        font-size: 4vw;
+    }
+    .container {
+        text-align: justify;
+        word-wrap: break-word;
+        padding-bottom: 10vh;
+    }
+    .container-img{
+        width: 80%;
+        margin: 0 auto 2vh;
+    }
+    .container-text{
+        width: 88%;
+        height: auto;
+        margin: 0 auto 3vh;
+    }
+    .container-text i{
+        font-size: 4vw;
+    }
+    .container-img img{
+        width: 100%;
+    }
+    .container p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+}
+
+
+/* PC */
+@media (min-width: 993px) {
+    body {
+        background-color: #efefef;
+    }
+    .logo {
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        text-align: center;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: chartreuse;
+        line-height: 150px;
+        text-decoration: underline;
+        font-size: 60px;
+    }
+    .nav-menu {
+        text-align: center;
+    }
+    .nav-menu a {
+        display: inline-block;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 20px;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+    .nav-menu a:hover {
+        color: red;
+    }
+    .nav-menu a:nth-child(2) {
+        color: red;
+    }
+    .content {
+        margin-top: 40px;
+    }
+    .title,.container {
+        background-color: white;
+        width: 100%;
+        height: auto;
+    }
+    .title {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Lobster', cursive;
+        padding: 20px 0;
+    }
+    .container {
+        text-align: justify;
+        word-wrap: break-word;
+        padding-bottom: 100px;
+    }
+    .container-img{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .container-img img {
+        width: 100%;
+        height: auto;
+    }
+    .container-text{
+        width: 88%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .container-text i{
+        font-size: 35px;
+    }
+    .container p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}

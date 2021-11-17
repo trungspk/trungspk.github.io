@@ -1,0 +1,617 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .logo {
+        width: 100%;
+        height: 20vw;
+        background-color: black;
+        text-align: center;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: chartreuse;
+        line-height: 20vw;
+        text-decoration: underline;
+        font-size: 7vw;
+    }
+    .nav-menu {
+        text-align: center;
+        background-color: #efefef;
+    }
+    .nav-menu a {
+        display: inline-block;
+        font-size: 2.5vw;
+        text-decoration: none;
+        padding: 2vw;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+    .nav-menu a:hover {
+        color: red;
+    }
+    .nav-menu a:nth-child(2) {
+        color: red;
+    }
+    .article-container {
+        background-color: #efefef;
+    }
+    .article1{
+        margin-top: 3vw;
+    }
+    .article1, .article2, .article3 {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin-bottom: 8vw;
+    }
+    .article-header {
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        padding: 3vw 0;
+    }
+    .article-header a{
+        text-decoration: none;
+        color: black;
+        font-size: 4vw;
+    }
+    .article-img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .article-img img {
+        width: 100%;
+        height: auto;
+    }
+    .article-footer {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding: 2vw 0 8vw;
+        text-align: justify;
+        font-size: 3vw;
+        line-height: 5vw;
+        word-wrap: break-word;
+    }
+    .article-footer a {
+        text-decoration: none;
+        color: chartreuse;
+    }
+    .footer-container {
+        width: 100%;
+        height: auto;
+        background-color: #efefef;
+    }
+    .footer-banner {
+        text-align: center;
+    }
+    .footer-content img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-banner p {
+        font-family: 'Playfair Display', serif;
+        font-size: 6vw;
+    }
+    .footer-img1 {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .price {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 5vh;
+        margin-top: -1vh;
+        background-color: rgb(235, 38, 47, 1);
+    }
+    p.price1 {
+        line-height: 5vh;
+        font-size: 4.5vw;
+        position: absolute;
+        background-color: rgb(235, 38, 47, 1);
+        color: white;
+        border-radius: 0 1vw 0 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    p.price2 {
+        line-height: 5vh;
+        font-size: 4.5vw;
+        position: absolute;
+        background-color: rgb(235, 38, 47, 1);
+        color: white;
+        border-radius: 0 1vw 0 0;
+        animation-name: appear2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    @keyframes appear {
+        0% {
+            opacity: 1;
+        }
+        49.9% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes appear2 {
+        0% {
+            opacity: 0;
+        }
+        49.9% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .footer-img1-text {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #tour-banner {
+        height: 18vw;
+        line-height: 18vw;
+        text-align: justify;
+    }
+    #tour-banner p {
+        font-size: 4vw;
+        line-height: 5vw;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #tour-detail {
+        line-height: 18vw;
+        height: 18vw;
+        text-align: justify;
+    }
+    #tour-detail p {
+        display: inline-block;
+        font-size: 3vw;
+        line-height: 4.5vw;
+    }
+    .footer-img2 {
+        margin-top: 5vh;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .footer-img2 img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-img2-text {
+        width: 80%;
+        margin: auto;
+    }
+    .footer-img3 {
+        margin: 5vh 0 15vh;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .footer-img3 img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-img3-text {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-img3 p {
+        height: auto;
+        font-size: 4.5vw;
+    }
+    
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo {
+        width: 100%;
+        height: 20vw;
+        background-color: black;
+        text-align: center;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: chartreuse;
+        line-height: 20vw;
+        text-decoration: underline;
+        font-size: 7vw;
+    }
+    .nav-menu {
+        text-align: center;
+        background-color: #efefef;
+    }
+    .nav-menu a {
+        display: inline-block;
+        font-size: 2.5vw;
+        text-decoration: none;
+        padding: 2vw;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+    .nav-menu a:hover {
+        color: red;
+    }
+    .nav-menu a:nth-child(2) {
+        color: red;
+    }
+    .article-container {
+        background-color: #efefef;
+    }
+    .article1{
+        margin-top: 30px;
+    }
+    .article1, .article2, .article3 {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin-bottom: 70px;
+    }
+    .article-header {
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        padding: 2vw 0;
+        font-size: 4vw;
+    }
+    .article-header a{
+        text-decoration:none;
+        color: black;
+    }
+    .article-img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .article-img img {
+        width: 100%;
+        height: auto;
+    }
+    .article-footer {
+        width: 84%;
+        height: auto;
+        margin: 0 auto;
+        padding: 30px 0 80px;
+        text-align: justify;
+        font-size: 3vw;
+        line-height: 35px;
+        word-wrap: break-word;
+    }
+    .article-footer a {
+        text-decoration: none;
+        color: chartreuse;
+    }
+    .footer-container {
+        width: 100%;
+        height: auto;
+        background-color: #efefef;
+    }
+    .footer-banner {
+        margin: 3vh 0;
+        text-align: center;
+    }
+    .footer-content img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-banner p {
+        font-family: 'Playfair Display', serif;
+        font-size: 6vw;
+    }
+    .footer-img1, .footer-img2, .footer-img3 {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .footer-img1-text, .footer-img2-text, .footer-img3-text {
+        width: 80%;
+        margin: auto;
+    }
+    .footer-img1 img, .footer-img2 img, .footer-img3 img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-img2 {
+        margin-top: 5vh;
+    }
+    .footer-img3 {
+        margin: 5vh 0 15vh;
+    }
+    #tour-banner {
+        height: 17vw;
+        line-height: 17vw;
+    }
+    #tour-banner p {
+        font-size: 4vw;
+        line-height: 5vw;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #tour-detail {
+        line-height: 15vw;
+        height: 15vw;
+        text-align: justify;
+    }
+    #tour-detail p {
+        display: inline-block;
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .footer-img1-img, .footer-img2-img, .footer-img3-img {
+        position: relative;
+        overflow: hidden;
+    }
+    p.price1 {
+        height: auto;
+        font-size: 4.5vw;
+        position: absolute;
+        bottom: 0.7vh;
+        left: 0;
+        background-color: rgb(235, 38, 47, 1);
+        padding: 2vw;
+        color: white;
+        border-radius: 0 1vw 0 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    p.price2 {
+        height: auto;
+        font-size: 4.5vw;
+        position: absolute;
+        bottom: 0.7vh;
+        left: 0;
+        background-color: rgb(235, 38, 47, 1);
+        padding: 2vw;
+        color: white;
+        border-radius: 0 1vw 0 0;
+        opacity: 0;
+        animation-name: appear2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes appear {
+        0% {
+            opacity: 1;
+        }
+        49.9% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes appear2 {
+        0% {
+            opacity: 0;
+        }
+        49.9% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+/* PC */
+
+@media (min-width: 993px) {
+    body {
+        background-color: #efefef;
+    }
+    .logo {
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        text-align: center;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: chartreuse;
+        line-height: 150px;
+        text-decoration: underline;
+        font-size: 60px;
+    }
+    .nav-menu {
+        text-align: center;
+    }
+    .nav-menu a {
+        display: inline-block;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 20px;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+    .nav-menu a:hover {
+        color: red;
+    }
+    .nav-menu a:nth-child(2) {
+        color: red;
+    }
+    .article {
+        margin-top: 40px;
+    }
+    .article1, .article2, .article3 {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin-bottom: 70px;
+    }
+    .article-header {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Lobster', cursive;
+        padding: 2vw 0;
+    }
+    .article-header a{
+        text-decoration: none;
+        color: black;
+    }
+    .article-img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .article-img img {
+        width: 100%;
+        height: auto;
+    }
+    .article-footer {
+        width: 84%;
+        height: auto;
+        margin: 0 auto;
+        padding: 30px 0 100px;
+        text-align: justify;
+        font-size: 25px;
+        line-height: 35px;
+        word-wrap: break-word;
+    }
+    .article-footer a {
+        text-decoration: none;
+        color: chartreuse;
+    }
+    .footer {
+        padding-bottom: 100px;
+    }
+    .footer-container {
+        width: 100%;
+        height: auto;
+    }
+    .footer-banner {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-content img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-banner p {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+    }
+    .footer-img1, .footer-img2, .footer-img3 {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .footer-img1-text, .footer-img2-text, .footer-img3-text {
+        width: 80%;
+        margin: auto;
+    }
+    .footer-img1-img, .footer-img2-img, .footer-img3-img {
+        position: relative;
+        overflow: hidden;
+    }
+    p.price1 {
+        height: auto;
+        font-size: 25px;
+        position: absolute;
+        bottom: 0.7vh;
+        left: 0;
+        background-color: rgb(235, 38, 47, 1);
+        padding: 10px;
+        color: white;
+        border-radius: 0 1vw 0 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    p.price2 {
+        height: auto;
+        font-size: 25px;
+        position: absolute;
+        bottom: 0.7vh;
+        left: 0;
+        background-color: rgb(235, 38, 47, 1);
+        padding: 10px;
+        color: white;
+        border-radius: 0 1vw 0 0;
+        opacity: 0;
+        animation-name: appear2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes appear {
+        0% {
+            opacity: 1;
+        }
+        49.9% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes appear2 {
+        0% {
+            opacity: 0;
+        }
+        49.9% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    #tour-banner {
+        height: 140px;
+        line-height: 140px;
+    }
+    #tour-banner p {
+        font-size: 25px;
+        line-height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #tour-detail {
+        line-height: 140px;
+        height: 140px;
+        text-align: justify;
+    }
+    #tour-detail p {
+        display: inline-block;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
